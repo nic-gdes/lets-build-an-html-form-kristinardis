@@ -14,9 +14,59 @@
 
     <main>
         <!-- Edit code below this line -->
+        <div class="main">
+        <form action="results.html" method="GET">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="username" required>
+            </div>
+            <div>
+                <label>
+                    Password
+                    <input type="password" name="password" required>
+                </label>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="zip code"></label>
+                <label type="number" name="zip code" id="zip code"></label>
+            </div>
+            <div>
+                Menu Request
+                <div>
+                    <label for="Appetizers">Appetizers</label>
+                    <input type="checkbox" name="Appetizers" id="Appetizers">
+                </div>
+                <div>
+                    <label for="Salads">Salads</label>
+                    <input type="checkbox" name="Salads" id="Salads">
+                </div>
+                <div>
+                    <label for="Soups">Soups</label>
+                    <input type="checkbox" name="Soups" id="Soups">
+                </div>
+                <div>
+                    <label for="Entrees">Entrees</label>
+                    <input type="checkbox" name="Entrees" id="Entrees">
+                </div>
+                <div>
+                    <label for="Desserts">Desserts</label>
+                    <input type="checkbox" name="Desserts" id="Desserts">
+                </div>
+            </div>
+            <div>
+                <label for="More Details">More Details</label>
+                <textarea id="More Details" name="More Details"></textarea>
+            </div>
 
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
 
-
+        </form>
+        </div>
         <!-- Edit code above this line -->
     </main>
 
